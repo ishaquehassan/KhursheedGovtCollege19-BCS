@@ -46,8 +46,14 @@ public class Human {
    
     
     void sleep(){
-        System.out.println("");
+        System.out.println(name+" is sleeping!");
     }
     
+    void sleep(String message){
+        System.out.println(message);
+    }
     
+    static void hello(){
+        System.out.println(nationality+"Hello world from human");
+    }
 }

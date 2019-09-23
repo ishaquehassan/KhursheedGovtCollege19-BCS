@@ -5,6 +5,7 @@
  */
 package classes;
 
+import java.util.ArrayList;
 /**
  *
  * @author ishaqhassan
@@ -31,11 +32,38 @@ public class Classes {
         System.out.println(h1.gpa);
         
         h1.sleep();
+        h2.sleep("");
+        Human.hello();
         
         System.out.println(h2.name);
         System.out.println(h2.age);
         System.out.println(h2.gpa);
         System.out.println(Human.nationality);
+        
+        // LIST
+        ArrayList<Human> myList = new ArrayList<Human>();
+        myList.add(h1);
+        myList.add(h2);
+        
+        for(Human h : myList){
+            
+        }
+        
+        /*
+        Create a program to Add/List students data
+        
+        Output: 
+        Main Menu======
+        1. Add Student
+        2. List All Students
+        
+        For e.g. 1:
+        Your Name: aksjakjs
+        Your age : 13
+        Your cellNo : 243535
+        exitTomainMenu();
+        */
+        
     }
     
 }
