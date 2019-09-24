@@ -12,8 +12,9 @@ package inheritance;
 public class SmartPhone extends CellPhone {
     String osVersion = "Q";
 
-    public SmartPhone(String modelName, int year, float screenSize) {
+    public SmartPhone(String modelName, int year, float screenSize,String osVersion) {
         super(modelName, year, screenSize);
+        this.osVersion = osVersion;
     }
     
     public SmartPhone(){

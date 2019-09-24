@@ -27,11 +27,8 @@ public class Inheritance {
         //CellPhone cl = new CellPhone();
         // cl.installApp(); ERROR
         
-        SmartPhone cell = new SmartPhone();
+        SmartPhone cell = new SmartPhone("3310",2000,1.5f);
         cell.installApp();
-        cell.modelName = "3310";
-        cell.screenSize = 1.5f;
-        cell.year = 2000;
         cell.poweOn();
         cell.makeACall("1234232424");
         cell.sendSms("2423523423","hello world");
