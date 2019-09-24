@@ -49,6 +49,15 @@ public class Classes {
             
         }
         
+        while(true){
+            System.out.println("Enter name:");
+            System.out.println("Enter age:");
+            int age = 10;
+            String name = "hello";
+            Human h = new Human(name,age);
+            myList.add(h);
+        }
+        
         /*
         Create a program to Add/List students data
         
