@@ -18,12 +18,16 @@ public class Overriding {
         // TODO code application logic here
         
         CellPhone cell = new CellPhone("3310");
+        System.out.println(cell);
+        
         CellPhone cell1 = new CellPhone("3310");
         System.out.println(cell.equals(cell1));
+        
         //cell.modelName;
         //cell.makeACall("2432535234");
         
         FeaturePhone c130 = new FeaturePhone("c130");
+        System.out.println(c130);
         c130.brosweInternet();
         System.out.println("=========");
         SmartPhone s10 = new SmartPhone("Galaxy S10");

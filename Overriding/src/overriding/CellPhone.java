@@ -18,7 +18,8 @@ public class CellPhone {
     void makeACall(String number){
         System.out.println("Calling ... "+number);
     }
-
+    
+    
     @Override
     public boolean equals(Object obj) {
        if(obj instanceof CellPhone){
@@ -28,6 +29,13 @@ public class CellPhone {
             return false;
        }
     }
+       
+    
+    @Override
+    public String toString() {
+        return "This is CellPhone "+modelName+" class!"; 
+    }
+    
     
     
     
